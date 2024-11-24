@@ -1,20 +1,20 @@
 // 1) Declare a variable and assign a string as a value. Make sure the string is at least 6 characters long. 
 // Print the variable to the console.
-let str = prompt("Enter some string:");
+let str = prompt('Enter some string:');
 while(str.length < 6) {
-    str = prompt("Your entered string was short. Make sure that characters are at least 6 long:");
+    str = prompt('Your entered string was short. Make sure that characters are at least 6 long:');
 }
 console.log(str);
 
 // 2) What is the difference between "5" and 5?
-let variable1 = "5";
+let variable1 = '5';
 let variable2 = 5;
 // variable1 is a string with value of 5 and variable2 is number with value of 5
 
 // 3) Declare a variable and assign a number as a value. Make sure the number is greater than 9. Print the variable to the console.
-let number = Number(prompt("Enter number. Number should be greater than 9:"));
+let number = Number(prompt('Enter number. Number should be greater than 9:'));
 while(number <= 9) {
-    number = Number(prompt("You entered number lower or equal to 9. Number should be greater than 9:"));
+    number = Number(prompt('You entered number lower or equal to 9. Number should be greater than 9:'));
 }
 console.log(number);
 
@@ -26,12 +26,12 @@ console.log(bool);
 // Answer: Logical oeprators like ||(or); &&(and); The equality operators (==, !=, ===, !==) and comparison operators (<, >).
 
 // 6) Declare a variable with the value of "Hello". Convert the value to upper case and print the converted value to the console.
-let hello = "Hello";
+let hello = 'Hello';
 hello = hello.toUpperCase();
 console.log(hello);
 
 // 7) Declare another variable with the value of "World". Convert the value to lower case and print the converted value to the console.
-let world = "World";
+let world = 'World';
 world = world.toLowerCase();
 console.log(world);
 
