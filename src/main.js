@@ -7,8 +7,8 @@ while(str.length < 6) {
 console.log(str);
 
 // 2) What is the difference between "5" and 5?
-let variable1 = '5';
-let variable2 = 5;
+// let variable1 = '5';
+// let variable2 = 5;
 // variable1 is a string with value of 5 and variable2 is number with value of 5
 
 // 3) Declare a variable and assign a number as a value. Make sure the number is greater than 9. Print the variable to the console.
